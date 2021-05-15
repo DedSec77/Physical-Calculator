@@ -35,7 +35,7 @@ def T(s, v):
 
 
 while True:
-	answer = input("find A,N,F,Lever,Formules,Efficiency?: ")
+	answer = input("find A,N,F,Lever,Formules,Efficiency,V,T,S?: ")
 	if answer == "A":
 		f = int(input("F: "))
 		s = int(input("S: "))
