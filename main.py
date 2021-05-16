@@ -12,13 +12,9 @@ def Lever(a, b, c):
 
 def Formules():
 	print("F = m * g")
-	print("\n")
 	print("A = F/S")
-	print("\n")
 	print("N = A/T")
-	print("\n")
 	print("η = A/Q * 100%")
-	print("\n")
 	print("S = V * T")
 	print("V = S / T")
 	print("T = S / V")
@@ -72,6 +68,8 @@ while True:
 		V(v, t)
 	elif answer == "exit":
 		exit()
+	elif answer == "Formules":
+		Formules()
 	else:
 		print("Error")
 		exit()
