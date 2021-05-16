@@ -59,7 +59,7 @@ while True:
 		q = int(input("Q: "))
 		Efficiency()
 	elif answer == "S":
-		a = int(input("V: "))
+		v = int(input("V: "))
 		t = int(input("T: "))
 		S(v, t)
 	elif answer == "V":
